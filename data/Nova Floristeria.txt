@@ -1,0 +1,351 @@
+{
+  "floristName": "Nova Floristeria",
+  "products": [
+    {
+      "category": "Arbre",
+      "productId": 1,
+      "name": "pi",
+      "description": "2 metres.",
+      "price": 120.0,
+      "quantity": 30
+    },
+    {
+      "category": "Arbre",
+      "productId": 2,
+      "name": "abet",
+      "description": "1,75 metres.",
+      "price": 150.0,
+      "quantity": 20
+    },
+    {
+      "category": "Flor",
+      "productId": 3,
+      "name": "rosa",
+      "description": "color vermell",
+      "price": 20.0,
+      "quantity": 25
+    },
+    {
+      "category": "Flor",
+      "productId": 4,
+      "name": "orquidea",
+      "description": "color blanc",
+      "price": 25.0,
+      "quantity": 30
+    },
+    {
+      "category": "Decoració",
+      "productId": 5,
+      "name": "llum",
+      "description": "plàstic",
+      "price": 10.0,
+      "quantity": 65
+    },
+    {
+      "category": "Decoració",
+      "productId": 6,
+      "name": "test",
+      "description": "fusta",
+      "price": 12.5,
+      "quantity": 50
+    },
+    {
+      "category": "Flor",
+      "productId": 7,
+      "name": "clavel",
+      "description": "color blau",
+      "price": 18.0,
+      "quantity": 20
+    },
+    {
+      "category": "Decoració",
+      "productId": 8,
+      "name": "plat",
+      "description": "plàstic",
+      "price": 9.0,
+      "quantity": 100
+    }
+  ],
+  "tickets": [
+    {
+      "ticketId": 1,
+      "productsTicket": [
+        {
+          "category": "Arbre",
+          "productId": 2,
+          "name": "abet",
+          "description": "1,75 metres.",
+          "price": 150.0,
+          "quantity": 5
+        },
+        {
+          "category": "Decoració",
+          "productId": 6,
+          "name": "test",
+          "description": "fusta",
+          "price": 12.5,
+          "quantity": 75
+        },
+        {
+          "category": "Flor",
+          "productId": 3,
+          "name": "rosa",
+          "description": "color vermell",
+          "price": 20.0,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "ticketId": 2,
+      "productsTicket": [
+        {
+          "category": "Flor",
+          "productId": 4,
+          "name": "orquidea",
+          "description": "color blanc",
+          "price": 45.0,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "ticketId": 3,
+      "productsTicket": [
+        {
+          "category": "Flor",
+          "productId": 3,
+          "name": "rosa",
+          "description": "color vermell",
+          "price": 20.0,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "ticketId": 4,
+      "productsTicket": [
+        {
+          "category": "Flor",
+          "productId": 7,
+          "name": "clavel",
+          "description": "color blau",
+          "price": 18.0,
+          "quantity": 3
+        },
+        {
+          "category": "Decoració",
+          "productId": 5,
+          "name": "llum",
+          "description": "plàstic",
+          "price": 10.0,
+          "quantity": 20
+        }
+      ]
+    },
+    {
+      "ticketId": 5,
+      "productsTicket": [
+        {
+          "category": "Arbre",
+          "productId": 1,
+          "name": "pi",
+          "description": "2 metres.",
+          "price": 100.0,
+          "quantity": 3
+        },
+        {
+          "category": "Flor",
+          "productId": 3,
+          "name": "rosa",
+          "description": "color vermell",
+          "price": 20.0,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "ticketId": 6,
+      "productsTicket": [
+        {
+          "category": "Decoració",
+          "productId": 5,
+          "name": "llum",
+          "description": "plàstic",
+          "price": 10.0,
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "ticketId": 7,
+      "productsTicket": [
+        {
+          "category": "Flor",
+          "productId": 3,
+          "name": "rosa",
+          "description": "color vermell",
+          "price": 20.0,
+          "quantity": 5
+        },
+        {
+          "category": "Flor",
+          "productId": 7,
+          "name": "clavel",
+          "description": "color blau",
+          "price": 18.0,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "ticketId": 8,
+      "productsTicket": [
+        {
+          "category": "Decoració",
+          "productId": 5,
+          "name": "llum",
+          "description": "plàstic",
+          "price": 10.0,
+          "quantity": 5
+        },
+        {
+          "category": "Flor",
+          "productId": 7,
+          "name": "clavel",
+          "description": "color blau",
+          "price": 18.0,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "ticketId": 9,
+      "productsTicket": [
+        {
+          "category": "Decoració",
+          "productId": 8,
+          "name": "plat",
+          "description": "plàstic",
+          "price": 5.0,
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "ticketId": 10,
+      "productsTicket": [
+        {
+          "category": "Flor",
+          "productId": 3,
+          "name": "rosa",
+          "description": "color vermell",
+          "price": 20.0,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "ticketId": 11,
+      "productsTicket": [
+        {
+          "category": "Decoració",
+          "productId": 8,
+          "name": "plat",
+          "description": "plàstic",
+          "price": 5.0,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "ticketId": 12,
+      "productsTicket": [
+        {
+          "category": "Flor",
+          "productId": 4,
+          "name": "orquidea",
+          "description": "color blanc",
+          "price": 45.0,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "ticketId": 13,
+      "productsTicket": [
+        {
+          "category": "Decoració",
+          "productId": 8,
+          "name": "plat",
+          "description": "plàstic",
+          "price": 7.5,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "ticketId": 14,
+      "productsTicket": [
+        {
+          "category": "Decoració",
+          "productId": 8,
+          "name": "plat",
+          "description": "plàstic",
+          "price": 9.0,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "ticketId": 15,
+      "productsTicket": [
+        {
+          "category": "Arbre",
+          "productId": 1,
+          "name": "pi",
+          "description": "2 metres.",
+          "price": 120.0,
+          "quantity": 5
+        },
+        {
+          "category": "Flor",
+          "productId": 4,
+          "name": "orquidea",
+          "description": "color blanc",
+          "price": 25.0,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "ticketId": 16,
+      "productsTicket": [
+        {
+          "category": "Decoració",
+          "productId": 8,
+          "name": "plat",
+          "description": "plàstic",
+          "price": 9.0,
+          "quantity": 15
+        },
+        {
+          "category": "Decoració",
+          "productId": 5,
+          "name": "llum",
+          "description": "plàstic",
+          "price": 10.0,
+          "quantity": 5
+        },
+        {
+          "category": "Flor",
+          "productId": 3,
+          "name": "rosa",
+          "description": "color vermell",
+          "price": 20.0,
+          "quantity": 5
+        }
+      ]
+    }
+  ]
+}
