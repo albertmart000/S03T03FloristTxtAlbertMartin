@@ -51,8 +51,6 @@ public class Input {
                 int option = sc.nextInt();
                 if (option == 1) {
                     result = true;
-                } else if (option == 0) {
-                    result = false;
                 }
             } catch (Exception e) {
                 System.out.println("Valor no vàlid. Torna a provar-ho.");
@@ -61,4 +59,10 @@ public class Input {
             return result;
         } while (true);
     }
+
+    public static void pressEnter() {
+        System.out.println("\nPresiona Enter per continuar.");
+        sc.nextLine();
+    }
+
 }

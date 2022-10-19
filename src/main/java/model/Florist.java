@@ -1,50 +1,44 @@
 package model;
 
-import com.google.gson.annotations.Expose;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class Florist {
 
-    @Expose
-    private String name;
-    @Expose
+    private String floristName;
     private List<Product> products;
-    @Expose
     private List<Ticket> tickets;
 
-    public Florist() {
-    }
-
     public Florist(String name) {
-        this.name = name;
+        this.floristName = name;
         this.products = new ArrayList<>();
         this.tickets = new ArrayList<>();
+    }
+
+    public String getFloristName() {
+        return floristName;
     }
 
     public List<Product> getProducts() {
         return products;
     }
 
-    public void setProducts(List<Product> products) {
-        this.products = products;
-    }
-
     public List<Ticket> getTickets() {
         return tickets;
     }
 
-    public void setTickets(List<Ticket> tickets) {
-        this.tickets = tickets;
+    public void showProductListByCategory(List<Product> products){
+        String format = "%1$-10s %2$-15s %3$-15s %4$-10s %5$-10s\n";
+        String [] categories = {"Arbre", "Flor", "Decoració"};
+        for (String category: categories){
+            System.out.println(category.toUpperCase());
+            System.out.format(format, "Id", "Producte", "Descripció", "Preu", "Unitats");
+            for (Product product : products) {
+                if(product.getCategory().equals(category)){
+                    System.out.format(format, product.getProductId(), product.getName(),
+                            product.getDescription(), product.getPrice(), product.getQuantity());
+                }
+            }
+        }
     }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
 }

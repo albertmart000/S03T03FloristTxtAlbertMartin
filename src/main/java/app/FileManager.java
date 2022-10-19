@@ -2,6 +2,7 @@ package app;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import model.Florist;
 
 import java.io.*;
 
@@ -12,7 +13,7 @@ public class FileManager {
         boolean fileIsCreated = false;
         if(!file.exists()){
             try{
-                System.out.println("\nCom no existeix cap arxiu amb aquest nom, creem un de nou.");
+                System.out.println("\nNo existeix cap arxiu amb aquest nom. Fem un de nou.");
                 file.createNewFile();
                 System.out.println("L'arxiu " + fileName + ".txt se ha creat correctament.");
             } catch (IOException e) {
@@ -26,7 +27,7 @@ public class FileManager {
         BufferedWriter bufferedWriter;
         FileWriter fileWriter;
         GsonBuilder gsonBuilder = new GsonBuilder();
-        String dataToJson = gsonBuilder.excludeFieldsWithoutExposeAnnotation().setPrettyPrinting().create().toJson(florist);
+        String dataToJson = gsonBuilder.setPrettyPrinting().create().toJson(florist);
         try {
             fileWriter = new FileWriter("./data/" + fileName + ".txt");
             bufferedWriter = new BufferedWriter(fileWriter);
